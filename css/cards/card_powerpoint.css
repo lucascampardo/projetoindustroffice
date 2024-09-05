@@ -1,0 +1,44 @@
+.card__container .card__powerpoint {
+    display: flex;
+    gap: 2px;
+    padding: 23px;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 3px 2px var(--card-powerpoint);
+    height: 381px;
+    width: 65rem;
+}
+
+.card__container .texto__powerpoint #para__powerpoint {
+    margin-top: 15px;
+    height: 32px;
+}
+
+.card__container .icon__powerpoint {
+    display: flex;
+    background-color: var(--cor-branca);
+    justify-content: center;
+    height: 250px;
+    width: 350px;
+    border-radius: 7px;
+    background: linear-gradient(to bottom, #e4e4e4, #b4b0b0);
+}
+
+.card__container .icon__powerpoint img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card__container .card__powerpoint .btn__powerpoint {
+    display: flex;
+    background-color: var(--card-powerpoint);
+    margin-top: 46px;
+    height: 40px;
+    width: 98px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+

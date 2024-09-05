@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--cor-primaria);
+    height: 55px;
+    width: 100vw;
+}
+
+.container .container__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container__content a {
+    display: flex;
+    margin: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.container .container__content img {
+    display: flex;
+    /* flex-direction: row; */
+    padding-right: 39px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}

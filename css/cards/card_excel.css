@@ -1,0 +1,39 @@
+.card__container .card__excel {
+    display: flex;
+    /* flex: 1; */
+    gap: 2px;
+    padding: 23px;
+    flex-direction: column;
+    box-shadow: 0 3px 2px var(--card-excel);
+    border-radius: 7px;
+    height: 380px;
+    width: 65rem;
+}
+
+.card__container .texto__excel h2 {
+    font-size: 22px;
+}
+
+.card__container .texto__excel #para__excel {
+    margin-top: 15px;
+    height: 32px;
+}
+
+.card__container .card__excel .btn__excel {
+    display: flex;
+    background-color: var(--card-excel);
+    margin-top: 46px;
+    width: 98px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
+
+.card__container .icon__excel img {
+    max-width: 100%;
+    height: auto;
+}
+

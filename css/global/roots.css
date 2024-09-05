@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --cor-primaria: #AF3039;
+    --cor-branca: #fafafa;
+    --card-excel: rgba(1, 75, 26, 0.9);
+    --card-word: rgba(31, 31, 136, 0.9);
+    --card-powerpoint: rgba(250, 122, 2, 0.9);
+    --fonte-primaria: "Montserrat", sans-serif;
+}

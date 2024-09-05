@@ -1,0 +1,61 @@
+h1 {
+    display: flex;
+    font-size: 31px;
+    margin-top: 12px;
+    padding: 9px;
+    height: 25px;
+}
+
+span {
+    color: var(--cor-primaria);
+    padding-left: 6px;
+}
+
+h2 {
+    display: flex;
+    font-size: 29px;
+    margin-top: 12px;
+    height: 22px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-branca);
+    align-items: flex-start;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 12px 15px;
+    gap: 12px;
+}
+
+section .texto__excel h2, .texto__word h2, .texto__powerpoint h2 {
+    font-size: 22px;
+}
+
+.card__container .texto__excel #para__excel {
+    margin-top: 15px;
+    height: 32px;
+}
+
+.card__container .icon__excel, .icon__word {
+    display: flex;
+    background-color: var(--cor-branca);
+    justify-content: center;
+    height: 250px;
+    border-radius: 12px;
+    width: 350px;
+    background: linear-gradient(to bottom, #e4e4e4, #b4b0b0);
+}
+
+h3 {
+    font-size: 23px;
+    margin-top: 67px;
+    padding-left: 15px;
+}
+
+#para__body {
+    font-size: 17px;
+    padding-left: 19px;
+    
+}

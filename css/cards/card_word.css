@@ -1,0 +1,33 @@
+.card__container .card__word {
+    display: flex;
+    gap: 2px;
+    padding: 23px;
+    flex-direction: column;
+    box-shadow: 0 3px 2px 0.1px var(--card-word);
+    border-radius: 7px;
+    height: 380px;
+    width: 65rem;
+}
+
+.card__container .texto__word #para__word {
+    margin-top: 15px;
+    height: 32px;
+}
+
+.card__container .icon__word img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card__container .card__word .btn__word {
+    display: flex;
+    background-color: var(--card-word);
+    margin-top: 46px;
+    width: 98px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-branca);
+}
